@@ -8,12 +8,6 @@ pub fn solve(_input: &str) -> i32 {
 
     reports
     .iter()
-    .filter(
-        |&report| 
-        (
-            can_traverse(report, 0) ||
-            can_traverse(report, 0)
-        )
-    )
+    .filter(|&report| can_traverse(report, 0))
     .count() as i32
 }
