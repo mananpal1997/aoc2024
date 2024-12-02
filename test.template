@@ -1,0 +1,7 @@
+use day<n>::part<part>;
+
+#[test]
+fn test_solve() {
+    let input = "";
+    assert_eq!(part<part>::solve(&input), 0);
+}
