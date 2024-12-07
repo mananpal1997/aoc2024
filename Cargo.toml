@@ -4,7 +4,7 @@ version = "0.1.0"
 edition = "2021"
 
 [workspace]
-members = [ "days/day1", "days/day2", "days/day3", "days/day4", "days/day5",]
+members = [ "days/day1", "days/day2", "days/day3", "days/day4", "days/day5", "days/day6",]
 
 [dependencies.day1]
 path = "days/day1"
@@ -24,3 +24,6 @@ path = "days/day4"
 
 [dependencies.day5]
 path = "days/day5"
+
+[dependencies.day6]
+path = "days/day6"
