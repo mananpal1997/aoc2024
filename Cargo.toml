@@ -4,7 +4,7 @@ version = "0.1.0"
 edition = "2021"
 
 [workspace]
-members = [ "days/day1", "days/day2"]
+members = [ "days/day1", "days/day2", "days/day3",]
 
 [dependencies.day1]
 path = "days/day1"
@@ -15,3 +15,6 @@ path = "days/day2"
 [dependencies.clap]
 version = "4.0"
 features = [ "derive",]
+
+[dependencies.day3]
+path = "days/day3"
