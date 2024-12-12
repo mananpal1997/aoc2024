@@ -46,6 +46,8 @@ fn main() {
         (10, 2) => println!("{}", day10::part2::solve(&input)),
         (11, 1) => println!("{}", day11::part1::solve(&input)),
         (11, 2) => println!("{}", day11::part2::solve(&input)),
+        (12, 1) => println!("{}", day12::part1::solve(&input)),
+        (12, 2) => println!("{}", day12::part2::solve(&input)),
         // Add more match arms for other days and parts
         _ => eprintln!("Invalid day or part"),
     }
