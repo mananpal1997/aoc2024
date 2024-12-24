@@ -189,4 +189,8 @@ Elapsed: 10.30ms
 $ ./run.sh 23 2
 bg,bu,ce,ga,hw,jw,nf,nt,ox,tj,uu,vk,wp
 Elapsed: 54.70ms
+
+$ ./run.sh 24 1
+47666458872582
+Elapsed: 149.56µs
 ```
