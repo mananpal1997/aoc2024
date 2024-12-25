@@ -193,4 +193,8 @@ Elapsed: 54.70ms
 $ ./run.sh 24 1
 47666458872582
 Elapsed: 149.56µs
+
+$ ./run.sh 25 1
+2586
+Elapsed: 588.40µs
 ```
